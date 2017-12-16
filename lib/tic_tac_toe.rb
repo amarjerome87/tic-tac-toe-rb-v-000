@@ -1,5 +1,3 @@
-
-
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
@@ -107,7 +105,7 @@ def turn(board)
 end
 
 def play(board)
-  while !over?(board) && !draw?(board)
+  while !over?(board) 
     turn(board)
   end
 end
