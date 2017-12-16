@@ -112,5 +112,5 @@ def play(board)
     puts "Cat's Game!"
   else won?(board)
     puts winner(board)
-  end 
+  end
 end
